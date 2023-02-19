@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "name": "teamfile-generator",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moraadrian510/teamFile-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moraadrian510/teamFile-generator/issues"
+  },
+  "homepage": "https://github.com/moraadrian510/teamFile-generator#readme"
+}
