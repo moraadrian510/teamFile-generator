@@ -5,3 +5,7 @@ const manager = require('./lib/manager.js');
 const intern = require('./lib/intern.js');
 const engineer = require('./lib/engineer.js');
 const employee = require('./lib/employer.js');
+
+const renderPage = require('./assets/page-render.js');
+
+const team = [];
