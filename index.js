@@ -9,7 +9,7 @@ const engineer = require('./lib/engineer.js');
 const employee = require('./lib/employee.js');
 
 //link to page creation
-const renderPage = require('./assets/page-render.js');
+const renderPage = require('./assets/pageRenderHTML.js');
 
 //team array
 const team = [];
