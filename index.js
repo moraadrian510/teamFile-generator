@@ -3,16 +3,16 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 //team profiles
-const manager = require('./lib/manager.js');
-const intern = require('./lib/intern.js');
-const engineer = require('./lib/engineer.js');
-const employee = require('./lib/employee.js');
+const Manager = require('./lib/manager.js');
+const Intern = require('./lib/intern.js');
+const Engineer = require('./lib/engineer.js');
+ employee = require('./lib/employee.js');
 
 //link to page creation
 const renderPage = require('./assets/pageRenderHTML.js');
 
 //team array
-const team = [];
+const teamArray = [];
 
 //start of manager prompt
 const addManager = () => {
@@ -73,8 +73,7 @@ const addManager = () => {
     ])
     .then(managerInput => {
         const  { name, id, email, officeNumber } = managerInput; 
-        const manager = new manager (name, id, email, officeNumber);
-
+        const manager = new Manager (name, id, email, officeNumber);
         teamArray.push(manager); 
         console.log(manager); 
     })
@@ -86,7 +85,6 @@ const addEmployee = () => {
     Adding employees to the team
     =================
     `);
-
     return inquirer.prompt ([
         {
             type: 'list',
@@ -167,11 +165,12 @@ const addEmployee = () => {
             default: false
         }
     ])
+
     .then(employeeData => {
         // data for employee types 
 
         let { name, id, email, role, github, school, confirmAddEmployee } = employeeData; 
-        let employee; 
+        // let employee; 
 
         if (role === "Engineer") {
             employee = new Engineer (name, id, email, github);
@@ -216,8 +215,13 @@ addManager()
     return generateHTML(teamArray);
   })
   .then(pageHTML => {
-    return writeFile(pageHTML);
+    writeFile(pageHTML); //call writeFile() here
   })
   .catch(err => {
  console.log(err);
   });
+
+  const generateHTML = (teamArray) => {
+    let pageHTML = renderPage(teamArray);
+    return pageHTML;
+  };
