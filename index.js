@@ -188,7 +188,7 @@ const addEmployee = () => {
         if (confirmAddEmployee) {
             return addEmployee(teamArray); 
         } else {
-            return teamArray;
+            writeFile();
         }
     })
 
@@ -196,32 +196,9 @@ const addEmployee = () => {
 
 
 // function to generate HTML page file using file system 
-const writeFile = data => {
-    fs.writeFile('./dist/index.html', data, err => {
-        // if there is an error 
-        if (err) {
-            console.log(err);
-            return;
-        // when the profile has been created 
-        } else {
-            console.log("Your team profile has been successfully created! Please check out the index.html")
-        }
-    })
-}; 
+function writeFile(){
+    fs.writeFileSync('./dist/index.html', renderPage(teamArray), "utf-8")
+}
 
 addManager()
-  .then(addEmployee)
-  .then(teamArray => {
-    return generateHTML(teamArray);
-  })
-  .then(pageHTML => {
-    writeFile(pageHTML); //call writeFile() here
-  })
-  .catch(err => {
- console.log(err);
-  });
-
-  const generateHTML = (teamArray) => {
-    let pageHTML = renderPage(teamArray);
-    return pageHTML;
-  };
+.then(addEmployee);
