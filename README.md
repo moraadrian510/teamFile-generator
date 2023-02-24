@@ -70,7 +70,8 @@ If you would like to contribute or have any questions , please contact me at:
 
 ## Acknowledgements
 
-1. AskBCS Learning Assistant
+1. [askBCS LearningAssistant]()
+
 2. <img src="images/768px-Stack_Overflow_icon.svg.png"  width="25" height="40">  [StackOverflow](https://stackoverflow.com/)
 
 3.  <img src="images/youtube-icon-flat-red-play-button-logo-vector.webp"  width="20" height="30"> [YouTube](https://www.youtube.com/watch?v=ljVwKLLCEYg)
