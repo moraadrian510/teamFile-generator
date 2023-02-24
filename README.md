@@ -1,9 +1,11 @@
 # Team File-generator
+![](https://img.shields.io/badge/License-None-red.svg)
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Built With](#built-with)
+- [License](#license)
 - [Installation](#installation)
 - [Tests](#tests)
 - [Features](#features)
@@ -23,8 +25,14 @@
 1. HTML
 2. JavaScript
 3. CSS
-4. bootstrap
+4. BootStrap
 5. Express
+
+## License
+ 
+![](https://img.shields.io/badge/License-None-red.svg)
+
+ This project is not under any License. You are free to use and modify.
 
 ## Installation
 
