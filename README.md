@@ -1,9 +1,10 @@
-# teamFile-generator
+# Team File-generator
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Built With](#built-with)
+- [Installation](#installation)
 - [Tests](#tests)
 - [Features](#features)
 - [Contact](#contact)
@@ -19,19 +20,38 @@
  -->
 
 ### Built With
+1. HTML
+2. JavaScript
+3. CSS
+4. bootstrap
+5. Express
 
-<!-- TODO: List any MAJOR libraries/frameworks (e.g. React, Tailwind) with links to their homepages. -->
+## Installation
+
+1. Make sure your'e in the right module and open the Terminal.
+2. Enter node.js into the Terminal.
+3. Answer the questions accordingly to add employees.
+4. When finished, an HTML file with all the added employees will be created and can be viewed in a browser for use.
 
 ## Tests
 
+
 ## Features
 
-<!-- TODO: List what specific 'user problems' that this application solves. -->
+This application helps the user create a roster of employees through the terminal, ,aking it easy to assign roles to ech employee and creating an html file wich can be seen in the broweser and with all the employees information .
 
 ## Contact
 
-<!-- TODO: Include icons and links to your RELEVANT, PROFESSIONAL 'DEV-ORIENTED' social media. LinkedIn and dev.to are minimum. -->
+If you would like to contribute or have any questions , please contact me at:
+
+[Email](moraadrian510@icloud.com)
+
+[GitHub](https://github.com/moraadrian510)
+
 
 ## Acknowledgements
 
-<!-- TODO: List any blog posts, tutorials or plugins that you may have used to complete the project. Only list those that had a significant impact. Obviously, we all 'Google' stuff while working on our things, but maybe something in particular stood out as a 'major contributor' to your skill set for this project. -->
+1. AskBCS Learning Assistant
+2. <img src="images/768px-Stack_Overflow_icon.svg.png"  width="25" height="40">  [StackOverflow](https://stackoverflow.com/)
+
+3.  <img src="images/youtube-icon-flat-red-play-button-logo-vector.webp"  width="20" height="30"> [YouTube](https://www.youtube.com/watch?v=ljVwKLLCEYg)
