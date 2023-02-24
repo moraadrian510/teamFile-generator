@@ -43,14 +43,25 @@
 
 ## Tests
 
+[How to start test video](https://drive.google.com/file/d/1XyXkdd526q9CPi83QLWlxqTnTVHkF3bS/view)
 
+1. Go into terminal
+2. Enter NPM test and the test will start running.
+
+![Test in green passed](images/screenshot.png)
+
+you should see test in green passed.  If you your test does not pass or encounter any issues, please reach out to me through [Email](moraadrian510@icloud.com) thank you.
+
+---
 ## Features
 
 This application helps the user create a roster of employees through the terminal, ,aking it easy to assign roles to ech employee and creating an html file wich can be seen in the broweser and with all the employees information .
 
+---
 ## Contact
 
 If you would like to contribute or have any questions , please contact me at:
+
 
 [Email](moraadrian510@icloud.com)
 
@@ -63,3 +74,6 @@ If you would like to contribute or have any questions , please contact me at:
 2. <img src="images/768px-Stack_Overflow_icon.svg.png"  width="25" height="40">  [StackOverflow](https://stackoverflow.com/)
 
 3.  <img src="images/youtube-icon-flat-red-play-button-logo-vector.webp"  width="20" height="30"> [YouTube](https://www.youtube.com/watch?v=ljVwKLLCEYg)
+
+--- 
+![](https://media3.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif)
